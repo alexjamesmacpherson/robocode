@@ -6,16 +6,16 @@ Other than [Robocode](http://robocode.sourceforge.net/ "Download Robocode"), whi
 
 ## Compiling the Robot
 With Robocode running, access the Source Editor using
->> CTRL+E 
+> CTRL+E 
 
 From here, locate Wilde.java and use the Editor's built-in compiler to compile and package the robot with
->> CTRL+B
+> CTRL+B
 
 Save the file and, when prompted, click **YES** to save the compiled robot within Robocode's own robots directory.
 
 ## Running 'Wilde' Within Robocode
 With Robocode running, begin a new battle using
->> CTRL+N
+> CTRL+N
 
 From the available robots, add *u1409675.Wilde* to the list of selected robots. Feel free to add any other robots to fight against, in melee (a multi-bot free-for-all battle) or 1-vs-1 combat.
 
@@ -28,9 +28,7 @@ As an overview, the AI is comprised of three main areas:
 
 #### Targeting
 
-The targeting is *Guess Factor*-based, implementing a wave-based virtual bullet system to quickly learn possible bullet hit angles based on enemy movement patterns.
-
-It prioritises the closest known enemy as its target and is versatile across both melee & 1-vs-1 battles.
+The targeting is *Guess Factor*-based, implementing a wave-based virtual bullet system to quickly learn possible bullet hit angles based on enemy movement patterns. It prioritises the closest known enemy as its target and is versatile across both melee & 1-vs-1 battles.
 
 The AI is segmented to allow more accurate guesses in 1v1 combat, where scans are more frequent.
 
