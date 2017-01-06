@@ -7,13 +7,16 @@ Other than [Robocode](http://robocode.sourceforge.net/ "Download Robocode"), whi
 ## Compiling the Robot
 With Robocode running, access the Source Editor using
 >> CTRL+E 
+
 From here, locate Wilde.java and use the Editor's built-in compiler to compile and package the robot with
 >> CTRL+B
+
 Save the file and, when prompted, click **YES** to save the compiled robot within Robocode's own robots directory.
 
 ## Running 'Wilde' Within Robocode
 With Robocode running, begin a new battle using
 >> CTRL+N
+
 From the available robots, add *u1409675.Wilde* to the list of selected robots. Feel free to add any other robots to fight against, in melee (a multi-bot free-for-all battle) or 1-vs-1 combat.
 
 Click **Start Battle** to then begin the simulation.
