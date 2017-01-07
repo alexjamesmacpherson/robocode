@@ -28,16 +28,16 @@ As an overview, the AI is comprised of three main areas:
 
 ### 1. Targeting
 
-  The targeting is *Guess Factor*-based, implementing a wave-based virtual bullet system to quickly learn possible bullet hit angles based on enemy movement patterns. It prioritises the closest known enemy as its target and is versatile across both melee & 1-vs-1 battles.
+The targeting is *Guess Factor*-based, implementing a wave-based virtual bullet system to quickly learn possible bullet hit angles based on enemy movement patterns. It prioritises the closest known enemy as its target and is versatile across both melee & 1-vs-1 battles.
 
-  The AI is segmented to allow more accurate guesses in 1v1 combat, where scans are more frequent.
+The AI is segmented to allow more accurate guesses in 1v1 combat, where scans are more frequent.
 
 ### 2. Movement
 
-  In melee battles, the movement operates a *Minimum Risk* algorithm, calculating which direction will be the least dangerous to move into based on the locations and states of its enemies.
+In melee battles, the movement operates a *Minimum Risk* algorithm, calculating which direction will be the least dangerous to move into based on the locations and states of its enemies.
 
-  In 1-vs-1 combat, a *Psuedo-Random* pattern is adopted, attempting to remain perpendicular where possible for maximum escape angle from incoming bullets while moving random distances to counter pattern recognition-based targeting.
+In 1-vs-1 combat, a *Psuedo-Random* pattern is adopted, attempting to remain perpendicular where possible for maximum escape angle from incoming bullets while moving random distances to counter pattern recognition-based targeting.
 
 ### 3. Radar
 
-  The radar uses a *Weak Target Lock*, attempting to remain focused on its target but scanning the entire battlefield when said target is lost - this happens often - to either find the existing, or a better (closer) target.
+The radar uses a *Weak Target Lock*, attempting to remain focused on its target but scanning the entire battlefield when said target is lost - this happens often - to either find the existing, or a better (closer) target.
