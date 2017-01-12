@@ -1,5 +1,5 @@
 # Robocode (CS255)
-Artificial Intelligence coursework, designing and developing an AI for the Robocode game
+Artificial Intelligence coursework, designing and developing an AI for the Robocode game. For more info, please refer to the [project report](https://github.com/alexjamesmacpherson/robocode/blob/master/Report.pdf "View Report").
 
 ## Dependencies
 Other than [Robocode](http://robocode.sourceforge.net/ "Download Robocode"), which is required to run the AI simulation, the robot has no further dependencies than standard Java libraries.
